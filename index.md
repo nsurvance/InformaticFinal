@@ -23,7 +23,7 @@
     <div id="wrapper">
 
         <!-- Logo -->
-        <a href="http://iu.edu/" id="logo"><img src="images/logo.png" alt="Ocean World" class="hvr-float"></a>
+        <a href="http://iu.edu/" id="logo"><img src="images/logo.png" alt="Ocean World"></a>
 
         <!-- Header/Hamburger Button Insert-->
         <span id="Header-to-Hamburger-slot"></span>

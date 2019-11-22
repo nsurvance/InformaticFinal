@@ -378,7 +378,7 @@ min-height: 565px;
     transition: 0.3s;
     /* margin-right:40px;
     margin-top:40px; */
-    opacity: 0;
+    /* opacity: 0; */
 }
 
 
@@ -416,7 +416,7 @@ min-height: 565px;
 
 #side-footer #disclaimer-s { /* formats disclaimer message */
     justify-self: center;
-    width: 95%;
+    width: 90%;
     grid-area: disclaimer;
 }
 
