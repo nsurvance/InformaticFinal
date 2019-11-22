@@ -9,6 +9,7 @@
     <script src="https://kit.fontawesome.com/bd1924c9a2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style-index.css">
     <link rel="stylesheet" href="css/hover.css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
 </head>
 
 <body>
