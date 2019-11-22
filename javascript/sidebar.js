@@ -1,6 +1,7 @@
 function toggleSidebar() {
     document.getElementById("sidebar").classList.toggle('active');
     document.getElementById("wrapper").classList.toggle('active');
+    document.getElementById("toggle-collapse").classList.toggle('active');
 }
 
 function autoCollapse() {

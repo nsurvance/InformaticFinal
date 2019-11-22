@@ -79,6 +79,7 @@ body {
     height: 100vh;
     width: 100%;
     box-shadow: var(--shadow);
+    min-height: 565px;
 }
 
 #slider .slide { /* Formats the information inside the slider section.  Adds opacity transition */
@@ -299,6 +300,7 @@ position: absolute;
 width: 100%;
 right: 0;
 transition: all 300ms ease;
+min-height: 565px;
 }
 #wrapper.active { /* toggle state for the wrapper */
     position: absolute;
@@ -315,6 +317,7 @@ transition: all 300ms ease;
     text-align: center;
     transition: all 300ms ease;
     opacity:0;
+    min-height: 565px;
 }
 #sidebar.active { /* toggle state for the sidebar */
     right:0px;
@@ -365,7 +368,19 @@ transition: all 300ms ease;
     background: transparent;
     border: none;
     outline: none;
+    transition: 0.3s;
 }
+#toggle-collapse.active {
+    padding-left:80vh;
+    padding-bottom:80vh;
+    /* padding-top: 40px;
+    padding-right: 40px; */
+    transition: 0.3s;
+    /* margin-right:40px;
+    margin-top:40px; */
+    opacity: 0;
+}
+
 
 #toggle-icon { /* formatting for hamburger button's span list */
     list-style: none;
