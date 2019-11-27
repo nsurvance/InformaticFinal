@@ -1,0 +1,106 @@
+/* ======================================== Variables ======================================== */
+:root {
+    --background: rgb(30, 35, 68);
+    --shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+#graph {
+    text-align: center;
+    background-color: rgb(22, 19, 36);
+}
+
+#graph span {
+    display: none;
+}
+
+#graph img {
+    padding: 20px;
+}
+
+#graph .text {
+    color: white;
+    background-color: var(--background);
+}
+#graph .text h2{
+    padding-top: 60px;
+    font-size: 30px;
+}
+#graph .text p{
+    text-align: left;
+    padding:2% 50px 2% 50px;
+    max-width: 1200px;
+    margin:0 auto;
+    font-size: 20px;
+}
+.fa-angle-double-down{
+    display:block;
+    background-color: var(--background);
+    padding:10px;
+    padding-bottom: 90px;
+    color:white;
+}
+
+@media(max-width: 750px){
+    #graph img {
+        display: none;
+    }
+
+    #graph span {
+    margin: 0 auto;
+    display: block;
+    background-color: rgb(255, 86, 86);
+    color: #fff;
+    max-width: 800px;
+    padding: 20px;
+    border: hidden;
+    border-radius: 20px;
+    margin: 10px;
+    }
+}
+
+#faq {
+    text-align: center;
+    background: url(../images/parallax1.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    margin:0;
+    box-shadow: var(--shadow);
+}
+
+#faq h1{
+    font-size: 72px;
+    color: white;
+}
+
+#faq #questions {
+    /* background-color: rgb(48, 48, 102); */
+    display:block;
+    background-color: rgba(19, 17, 36, 0.92);
+    max-width: 1200px;
+    padding: 0px 40px 40px 40px;
+    margin: 0 auto;
+    box-shadow: var(--shadow);
+}
+
+#faq p {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 20px;
+    text-align: left;
+    color: white;
+}
+
+#faq p.Question {
+font-weight: 600;
+padding-top: 50px;
+}
+
+#faq p.Answer {
+    padding-top: 0px;
+    font-size: 15px;
+}
+
