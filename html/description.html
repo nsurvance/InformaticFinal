@@ -7,23 +7,107 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ocean World - Description</title>
     <link rel="shortcut icon" type="image/png" href="../images/favicon.png" />
+    <link rel="stylesheet" href="../css/hover.css">
+    <link rel="stylesheet" href="../css/style-universal.css">
 </head>
 
 <body>
 
-    <h1>Description</h1>
-    <!-- Header -->
-    <section id="header">
-        <a href="http://iu.edu/"><img src="images/logo.png" alt="Ocean World" class="hvr-float"></a>
-        <ul>
-            <li class="item hvr-float" id="description"><a href="description.html">Description</a></li>
-            <li class="item hvr-float" id="visualization"><a href="visualization.html">Visualization</a></li>
-            <li class="item hvr-float" id="About"><a href="about.html">About Us</a></li>
-        </ul>
-    </section>
-    <br /><br /><br />
-    <a href="../index.html">index</a>
+    <!--===================== HTML Body =====================-->
 
+    <!-- Header Insert -->
+    <span id="java-header-slot"></span>
+
+    <!-- Sidebar Insert -->
+    <span id="java-sidebar-slot"></span>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Top-Bar Insert -->
+        <span id="java-topbar-slot"></span>
+
+        <!--CONTENT HERE -->
+        ...
+    </div>
+
+    <!-- Footer Insert-->
+    <span id="java-footer-slot"></span>
+
+
+    <!--===================== Inserts =====================-->
+    <span id="filler"></span>
+
+    <!-- Footer -->
+    <script type="text/html" id="java-footer">
+        <section id="footer">
+            <table>
+                <ul>
+                    <li id="disclaimer">Contact us through email.  Created for IUPUI 2019 &copy;</li>
+                    <li><a href="mailto:bushcom@iu.edu"><span id="colin" class="foot-item"><span class="tooltip">Colin</span></a></span></li>
+                    <li><a href="mailto:cah1@iu.edu"><span id="clark" class="foot-item"><span class="tooltip">Clark</span></a></span></li>
+                    <li><a href="mailto:gmbeckha@iu.edu"><span id="griffin" class="foot-item"><span class="tooltip">Griffin</span></a></span></li>
+                    <li><a href="mailto:nsurvanc@iu.edu"><span id="nathan" class="foot-item"><span class="tooltip">Nathan</span></a></span></li>
+                    <li><a href="mailto:"><span id="james" class="foot-item"><span class="tooltip">James</span></a></span></li>
+                </ul>
+            </table>
+        </section>
+        </script>
+
+    <!-- Side Bar -->
+    <script type="text/html" id="java-sidebar">
+        <div ID="sidebar">
+            <!-- Side Menu -->
+            <ul ID="side-menu">
+                <li class="item"><a href="description.html">Description</a></li>
+                <li class="item"><a href="visualization.html">Visualization</a></li>
+                <li class="item"><a href="about.html">About Us</a></li>
+            </ul>
+    
+            <!-- Side Footer -->
+            <ul ID="side-footer">
+                    <li><a href="mailto:bushcom@iu.edu"><span id="colin-s" class="foot-item"><span class="tooltip">Colin</span></a></span></li>
+                    <li><a href="mailto:cah1@iu.edu"><span id="clark-s" class="foot-item"><span class="tooltip">Clark</span></a></span></li>
+                    <li><a href="mailto:gmbeckha@iu.edu"><span id="griffin-s" class="foot-item"><span class="tooltip">Griffin</span></a></span></li>
+                    <li><span id="filler"></span></li>
+                    <li><a href="mailto:nsurvanc@iu.edu"><span id="nathan-s" class="foot-item"><span class="tooltip">Nathan</span></a></span></li>
+                    <li><a href="mailto:"><span id="james-s" class="foot-item"><span class="tooltip">James</span></a></span></li>
+                    <li id="disclaimer-s">Contact us through email.  Created for IUPUI 2019 &copy;</li>
+            </ul>
+        </div>
+    </script>
+
+    <script type="text/html" id="java-topbar">
+        <div id="topbar">
+            <a href="../index.html" id="logo"><img src="../images/logo.png" alt="Ocean World" class="hvr-float"></a>
+
+            <!-- Hamburger Button -->
+            <button type="button" id="toggle-collapse" onClick="toggleSidebar()" class="hvr-grow">
+                <ul id="toggle-icon">
+                    <li><span class="toggle-bar"></span></li>
+                    <li><span class="toggle-bar"></span></li>
+                    <li><span class="toggle-bar"></span></li>
+                </ul>
+            </button>
+        </div>
+    </script>
+
+    <!-- Header -->
+    <script type="text/html" id="java-header">
+        <section id="header">
+            <a href="../index.html" id="logo"><img src="../images/logo.png" alt="Ocean World" class="hvr-float"></a>
+            <ul>
+                <li class="item hvr-float" id="description"><a href="description.html">Description</a></li>
+                <li class="item hvr-float" id="visualization"><a href="visualization.html">Visualization</a></li>
+                <li class="item hvr-float" id="about"><a href="about.html">About Us</a></li>
+            </ul>
+        </section>
+    </script>
+
+
+    <!--===================== JavaScript =====================-->
+    <script src="../javascript/sidebar-universal.js"></script>
+    <!-- <script src="../javascript/scrollcolor.js"></script> -->
 </body>
 
 </html>

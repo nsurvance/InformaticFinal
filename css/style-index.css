@@ -25,7 +25,7 @@ body {
 /* ======================================== Header ======================================== */
 #logo img { /* positions the image in the header */
     position: absolute;
-    width: 70px;
+    width: 180px;
     margin: 10px;
     top: 25px;
     left: 40px;
@@ -107,6 +107,10 @@ body {
 
 #slider .slide .content h1{ /* adjusts slide heading margins */
     margin-bottom: 10px;
+    font-size: 190%;
+}
+#slider .slide .content p {
+    font-size: 130%;
 }
 
 #slider .slide.current .content { /* Moves the .current slide information onto the screen */
@@ -169,7 +173,7 @@ button.btn-slider:hover { /* Hover effects for the slider button */
 }
 
 
-@media(max-width: 800px) { 
+@media(max-width: 700px) { 
     #slider .slide .content { /* if the page is less than 500px, the text moves from the bottom */
         bottom: -300px;
         left: 0;
@@ -205,6 +209,8 @@ button.btn-slider:hover { /* Hover effects for the slider button */
 #footer { /* positions the contents of the footer */
     position: absolute;
     right: 455px;
+    text-align: center;
+    text-decoration: none;
 }
 
 #footer ul{ /* places the elements on a grid */
@@ -219,7 +225,12 @@ button.btn-slider:hover { /* Hover effects for the slider button */
     padding: 20px;
 }
 
-#footer span{ /* defines the shapes of the elements */
+#footer a{
+    text-decoration:none;
+    color: #fff;
+}
+
+#footer .foot-item{ /* defines the shapes of the elements */
     display: block;
     width: 50px;
     height: 50px;
@@ -299,14 +310,15 @@ button.btn-slider:hover { /* Hover effects for the slider button */
 position: absolute;
 width: 100%;
 right: 0;
-transition: all 300ms ease;
+transition: all 0.3s ease;
 min-height: 565px;
+box-shadow: var(--shadow);
 }
 #wrapper.active { /* toggle state for the wrapper */
     position: absolute;
     width: 100%;
     right: 260px;
-	transition: all 300ms ease;
+	transition: all 0.3s ease;
 }
 
 #sidebar { /* sets default value and formatting for sidebar content */
@@ -315,16 +327,17 @@ min-height: 565px;
     width:260px;
     height: 100vh;
     text-align: center;
-    transition: all 300ms ease;
+    transition: all 0.3s ease;
     opacity:0;
     min-height: 565px;
 }
 #sidebar.active { /* toggle state for the sidebar */
-    right:0px;
-    transition: all 300ms ease;
-    opacity:1;
+    right: 0;
+    transition: all 0.3s ease;
+    opacity: 1;
 }
-@media(min-width: 800px){
+
+@media(min-width: 900px){
     #sidebar.active{
         opacity: 0;
     }
@@ -354,6 +367,7 @@ min-height: 565px;
     background: #fff;
     color: var(--background);
     transition: 0.3s;
+    text-decoration: none;
 }
 
 #sidebar #side-menu li { /* adds padding to the menu list */
@@ -370,7 +384,7 @@ min-height: 565px;
     outline: none;
     transition: 0.3s;
 }
-#toggle-collapse.active {
+#toggle-collapse.active { /* toggle state for the sidebar */
     padding-left:80vh;
     padding-bottom:80vh;
     /* padding-top: 40px;
@@ -396,6 +410,7 @@ min-height: 565px;
 
 #side-footer { /* places grid for the side footer */
     position: absolute;
+    text-align: center;
     bottom: 10px;
     display: grid;
     grid-gap: 0px;
@@ -405,7 +420,7 @@ min-height: 565px;
         "disclaimer disclaimer disclaimer";
 }
 
-#side-footer span { /* formates default shape for email icons */
+#side-footer .foot-item { /* formates default shape for email icons */
     display: block;
     width: 50px;
     height: 50px;
@@ -484,4 +499,17 @@ opacity: 0;
     transition: 0.3s;
     background-image: url(../images/email.jpg);
     border-radius: 0px;
+}
+
+/* Tool Tip Names for Footer & Side Footer */
+.tooltip {
+    position: relative;
+    top:-25px;
+    z-index: 20;
+    opacity: 0;
+    transition: 0.3s;
+}
+.foot-item:hover .tooltip {
+    opacity: 1;
+    transition: 0.3s;
 }
