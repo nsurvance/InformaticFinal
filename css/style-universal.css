@@ -21,6 +21,7 @@ body { /* Removes default margins from around the page */
     top: 10px;
     left: 40px;
     z-index: 3;
+	transition: 0.3s;
 }
 @media(max-width:500px){
     #logo img {
