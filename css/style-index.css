@@ -32,7 +32,7 @@ body {
     z-index: 3;
     transition: 0.3s;
 }
-@media(max-width:475px){
+@media(max-width:500px){
     #logo img {
         left: 10px;
         transition: 0.3s;
