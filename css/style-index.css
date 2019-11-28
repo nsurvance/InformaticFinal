@@ -18,6 +18,7 @@ body {
     color: #fff;
     line-height:1.6;
     font-family: Arial, Helvetica, sans-serif;
+    min-height:355px;
 }
 
 
@@ -86,7 +87,7 @@ body {
     height: 100vh;
     width: 100%;
     box-shadow: var(--shadow);
-    min-height: 565px;
+    min-height:355px;  
 }
 
 #slider .slide { /* Formats the information inside the slider section.  Adds opacity transition */
@@ -208,6 +209,12 @@ button.btn-slider:hover { /* Hover effects for the slider button */
         top:130px;
         left:15px;
     }
+
+    @media(max-height: 435px){
+        button.btn-slider{
+            display: none;
+        }
+    }
 }
 
 
@@ -318,7 +325,6 @@ position: absolute;
 width: 100%;
 right: 0;
 transition: all 0.3s ease;
-min-height: 565px;
 box-shadow: var(--shadow);
 }
 #wrapper.active { /* toggle state for the wrapper */
@@ -336,7 +342,6 @@ box-shadow: var(--shadow);
     text-align: center;
     transition: all 0.3s ease;
     opacity:0;
-    min-height: 565px;
 }
 #sidebar.active { /* toggle state for the sidebar */
     right: 0;
@@ -378,7 +383,7 @@ box-shadow: var(--shadow);
 }
 
 #sidebar #side-menu li { /* adds padding to the menu list */
-    padding-top: 40px;
+    padding-top: 30px;
 }
 
 #toggle-collapse{ /* formatting for hamburger button */
@@ -425,6 +430,13 @@ box-shadow: var(--shadow);
         "colin clark griffin"
         "filler nathan james"
         "disclaimer disclaimer disclaimer";
+}
+@media(max-width: 900px){
+    @media(max-height: 565px){
+        #side-footer {
+            display: none;
+        }
+    }
 }
 
 #side-footer .foot-item { /* formates default shape for email icons */
