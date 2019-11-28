@@ -280,7 +280,16 @@ div#topbar { /* Formats the topbar on subpages */
     padding-top: 40px;
 }
     
-
+#toggle-collapse{ /* formatting for hamburger button */
+    position: absolute;
+    right: 40px;
+    top: 20px;
+    z-index: 5;
+    background: transparent;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+}
 #toggle-collapse.active { /* toggle state for the sidebar */
     padding-left:80vh;
     padding-bottom:80vh;
