@@ -16,6 +16,10 @@ body { /* Removes default margins from around the page */
 
 }
 
+
+
+/* ======================================== Header ======================================== */
+
 #logo img { /* positions the image in the header */
     position: absolute;
     width: 180px;
@@ -25,7 +29,7 @@ body { /* Removes default margins from around the page */
     z-index: 3;
     transition: 0.3s;
 }
-@media(max-width:500px){
+@media(max-width:500px){  /* When the page is 500px or smaller, the logo shifts to the left */
     #logo img {
         left: 10px;
         transition: 0.3s;
@@ -33,8 +37,6 @@ body { /* Removes default margins from around the page */
 }
 
 
-
-/* ======================================== Header ======================================== */
 #header { /* Positions the header ontop of the slide show */
     display:block;
     height: 110px;
@@ -109,7 +111,7 @@ body { /* Removes default margins from around the page */
     padding: 20px;
 }
 
-#footer a{
+#footer a{ /* removes text decoration from footer tooltips */
     color: #fff;
     text-decoration: none;
 }
@@ -189,7 +191,7 @@ body { /* Removes default margins from around the page */
 }
 
 /* ======================================== SideBar ======================================== */
-div#topbar {
+div#topbar { /* Formats the topbar on subpages */
     position:sticky;
     top:0;
     display: block;
@@ -218,39 +220,39 @@ div#topbar {
     
 
 #sidebar { /* sets default value and formatting for sidebar content */
-        position: absolute;
-        right: 0px;
-        width:260px;
-        height: 100%;
-        text-align: center;
-        transition: all 0.3s ease;
-        opacity:0;
-        min-height: 565px;
-        text-align: center;
+    position: absolute;
+    right: 0px;
+    width:260px;
+    height: 100%;
+    text-align: center;
+    transition: all 0.3s ease;
+    opacity:0;
+    min-height: 565px;
+    text-align: center;
+}
+#sidebar.active { /* toggle state for the sidebar */
+    right:0px;
+    transition: all 0.3s ease;
+    opacity:1;
+}
+@media(min-width: 900px){ /* hides the sidebar from being displayed past 900px */
+    #sidebar.active{
+        opacity: 0;
     }
-    #sidebar.active { /* toggle state for the sidebar */
-        right:0px;
-        transition: all 0.3s ease;
-        opacity:1;
-    }
-    @media(min-width: 900px){
-        #sidebar.active{
-            opacity: 0;
-        }
-    }
+}
 
-    
-#sidebar ul { /* formats list */
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
+
+#sidebar ul { /* formats lists in sidebar */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
-#sidebar ul#side-menu{
-        width:260px;
-        position:fixed;
-        top:0;
+#sidebar ul#side-menu{ /* formats/positions menu in the sidebar */
+    width:260px;
+    position:fixed;
+    top:0;
 }
-#sidebar ul#side-footer{
+#sidebar ul#side-footer{ /* positions the footer in the side-bar */
     position:fixed;
     bottom:20px
 }
@@ -278,140 +280,131 @@ div#topbar {
     padding-top: 40px;
 }
     
-    #toggle-collapse{ /* formatting for hamburger button */
-        position: absolute;
-        right: 40px;
-        top: 20px;
-        z-index: 5;
-        background: transparent;
-        border: none;
-        outline: none;
-        transition: 0.3s ease;
-    }
-    #toggle-collapse.active { /* toggle state for the sidebar */
-        padding-left:80vh;
-        padding-bottom:80vh;
-        top:40px;
-        /* padding-top: 40px;
-        padding-right: 40px; */
-        transition: 0.3s;
-        /* margin-right:40px;
-        margin-top:40px; */
-        /* opacity: 0; */
-    }
-    
-    
-    #toggle-icon { /* formatting for hamburger button's span list */
-        list-style: none;
-    }
-    
-    .toggle-bar { /* creates the blocks for the hamburger menu */
-        display: block;
-        width: 50px;
-        height:5px;
-        margin: 10px 10px 10px 10px;
-        background-color: #fff;
-    }
-    
-    #side-footer { /* places grid for the side footer */
-        position: absolute;
-        bottom: 10px;
-        display: grid;
-        grid-gap: 0px;
-        grid-template-areas:
-            "colin clark griffin"
-            "filler nathan james"
-            "disclaimer disclaimer disclaimer";
-    }
-    @media(max-width: 900px){
-        @media(max-height: 565px){
-            #side-footer {
-                display: none;
-            }
+
+#toggle-collapse.active { /* toggle state for the sidebar */
+    padding-left:80vh;
+    padding-bottom:80vh;
+    top:40px;
+    /* padding-top: 40px;
+    padding-right: 40px; */
+    transition: 0.3s;
+    /* margin-right:40px;
+    margin-top:40px; */
+    /* opacity: 0; */
+}
+
+
+#toggle-icon { /* formatting for hamburger button's span list */
+    list-style: none;
+}
+
+.toggle-bar { /* creates the blocks for the hamburger menu */
+    display: block;
+    width: 50px;
+    height:5px;
+    margin: 10px 10px 10px 10px;
+    background-color: #fff;
+}
+
+#side-footer { /* places grid for the side footer */
+    position: absolute;
+    bottom: 10px;
+    display: grid;
+    grid-gap: 0px;
+    grid-template-areas:
+        "colin clark griffin"
+        "filler nathan james"
+        "disclaimer disclaimer disclaimer";
+}
+@media(max-width: 900px){ /* hides footer in side-bar when page is to short */
+    @media(max-height: 565px){
+        #side-footer {
+            display: none;
         }
     }
-    
-    #side-footer .foot-item { /* formates default shape for email icons */
-        display: block;
-        width: 50px;
-        height: 50px;
-        background-color: #fff;
-        border: hidden;
-        border-radius: 50px;
-    }
-    
-    #side-footer #disclaimer-s { /* formats disclaimer message */
-        justify-self: center;
-        width: 90%;
-        grid-area: disclaimer;
-        color:#fff;
-    }
-    
-    #side-footer span#menu-filler { /* fills the empty slot in the email icons */
-    grid-area: filler;
-    opacity: 0;
-    }
-    
-    /* Footer icons */ /* Each section assigns a background image of everyone's face, and a hover effect changing it to an email icon */
-    /* Colin */
-    #side-footer span#colin-s {
-        background-image: url(../images/user.jpg);
-        grid-area: colin;
-        transition: 0.3s;
-    }
-    #side-footer span#colin-s:hover{
-        transition: 0.3s;
-        background-image: url(../images/email.jpg);
-        border-radius: 0px;
-    }
-    
-    /* Clark */
-    #side-footer span#clark-s {
-        background-image: url(../images/profile/clark-50px.jpg);
-        grid-area: clark;
-        transition: 0.3s;
-    }
-    #side-footer span#clark-s:hover{
-        transition: 0.3s;
-        background-image: url(../images/email.jpg);
-        border-radius: 0px;
-    }
-    
-    /* Griffin */
-    #side-footer span#griffin-s {
-        background-image: url(../images/profile/griffin-50px.jpg);
-        grid-area: griffin;
-        transition: 0.3s;
-    }
-    #side-footer span#griffin-s:hover{
-        transition: 0.3s;
-        background-image: url(../images/email.jpg);
-        border-radius: 0px;
-    }
-    
-    /* Nathan */
-    #side-footer span#nathan-s {
-        background-image: url(../images/profile/nathan-50px.jpg);
-        grid-area: nathan;
-        transition: 0.3s;
-    }
-    #side-footer span#nathan-s:hover{
-        transition: 0.3s;
-        background-image: url(../images/email.jpg);
-        border-radius: 0px;
-    }
-    
-    /* James */
-    #side-footer span#james-s {
-        background-image: url(../images/user.jpg);
-        grid-area: james;
-        transition: 0.3s;
-    }
-    #side-footer span#james-s:hover{
-        transition: 0.3s;
-        background-image: url(../images/email.jpg);
-        border-radius: 0px;
-    }
+}
+
+#side-footer .foot-item { /* formates default shape for email icons */
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border: hidden;
+    border-radius: 50px;
+}
+
+#side-footer #disclaimer-s { /* formats disclaimer message */
+    justify-self: center;
+    width: 90%;
+    grid-area: disclaimer;
+    color:#fff;
+}
+
+#side-footer span#menu-filler { /* fills the empty slot in the email icons */
+grid-area: filler;
+opacity: 0;
+}
+
+/* Footer icons */ /* Each section assigns a background image of everyone's face, and a hover effect changing it to an email icon */
+/* Colin */
+#side-footer span#colin-s {
+    background-image: url(../images/user.jpg);
+    grid-area: colin;
+    transition: 0.3s;
+}
+#side-footer span#colin-s:hover{
+    transition: 0.3s;
+    background-image: url(../images/email.jpg);
+    border-radius: 0px;
+}
+
+/* Clark */
+#side-footer span#clark-s {
+    background-image: url(../images/profile/clark-50px.jpg);
+    grid-area: clark;
+    transition: 0.3s;
+}
+#side-footer span#clark-s:hover{
+    transition: 0.3s;
+    background-image: url(../images/email.jpg);
+    border-radius: 0px;
+}
+
+/* Griffin */
+#side-footer span#griffin-s {
+    background-image: url(../images/profile/griffin-50px.jpg);
+    grid-area: griffin;
+    transition: 0.3s;
+}
+#side-footer span#griffin-s:hover{
+    transition: 0.3s;
+    background-image: url(../images/email.jpg);
+    border-radius: 0px;
+}
+
+/* Nathan */
+#side-footer span#nathan-s {
+    background-image: url(../images/profile/nathan-50px.jpg);
+    grid-area: nathan;
+    transition: 0.3s;
+}
+#side-footer span#nathan-s:hover{
+    transition: 0.3s;
+    background-image: url(../images/email.jpg);
+    border-radius: 0px;
+}
+
+/* James */
+#side-footer span#james-s {
+    background-image: url(../images/user.jpg);
+    grid-area: james;
+    transition: 0.3s;
+}
+#side-footer span#james-s:hover{
+    transition: 0.3s;
+    background-image: url(../images/email.jpg);
+    border-radius: 0px;
+}
 
 /* Tool Tip Names for Footer & Side Footer */
 .tooltip {

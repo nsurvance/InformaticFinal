@@ -58,11 +58,11 @@
     }
 }
 
-#faq {
+.faq {
     text-align: center;
-    background: url(../images/parallax1.jpg) no-repeat center;
+    background: url(../images/parallax2.jpg) no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     width: 100%;
     padding-top: 10px;
     padding-bottom: 50px;
@@ -70,12 +70,12 @@
     box-shadow: var(--shadow);
 }
 
-#faq h1{
+.faq h1{
     font-size: 72px;
     color: white;
 }
 
-#faq #questions {
+.faq #questions {
     /* background-color: rgb(48, 48, 102); */
     display:block;
     background-color: rgba(19, 17, 36, 0.92);
@@ -85,7 +85,7 @@
     box-shadow: var(--shadow);
 }
 
-#faq p {
+.faq p {
     max-width: 1200px;
     margin: 0 auto;
     font-size: 20px;
@@ -94,12 +94,12 @@
     color: white;
 }
 
-#faq p.Question {
+.faq p.Question {
 font-weight: 600;
 padding-top: 50px;
 }
 
-#faq p.Answer {
+.faq p.Answer {
     padding-top: 0px;
     font-size: 15px;
 }
