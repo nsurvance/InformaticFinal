@@ -32,9 +32,27 @@
         <!--CONTENT HERE -->
         <!-- Graph -->
         <section id="graph">
-            <img src="../images/graph.png" alt="Graph" width="700px">
+            <img src="../images/graph.png" alt="Graph" width="1200px" usemap="#Map">
+
+            <div id="info-container">
+
+                <!-- <div id='infoBox'>
+                    <hr />
+                    <span id='close'> <i class='fas fa-times-circle fa-2x'></i> </span>
+                    <h2 id='year-h'>Year</h2>
+                    <p id='year-p'>1957</p>
+                    <h2 id='water-h'>Change in Water Level</h2>
+                    <p id='water-p'>4.291</p>
+                    <h2 id='temp-h'>Change in Global Temperature</h2>
+                    <p id='temp-p'>0.09</p>
+                    <hr />
+                </div> -->
+                <span id="infoBox"></span>
+
+            </div>
             <br />
-            <span> <i class="fas fa-exclamation-circle"></i> The graph is currently unavailable. Please increase the
+            <span id="notif"> <i class="fas fa-exclamation-circle"></i> The graph is currently unavailable. Please
+                increase the
                 width of your browser.</span>
             <div class="text">
                 <h2>How do I use this graph?</h2>
@@ -91,7 +109,20 @@
                     repudiandae neque, necessitatibus voluptas! Ab, itaque.</p>
             </div>
         </section>
+
+        <section id="sources">
+            <h2>Sources</h2>
+            <p>“Climate Change Indicators: U.S. and Global Temperature.” EPA, Environmental Protection Agency, 17
+                Dec.
+                2016, <a
+                    href="https://www.epa.gov/climate-indicators/climate-change-indicators-us-and-global-temperature">https://www.epa.gov/climate-indicators/climate-change-indicators-us-and-global-temperature</a>.
+            </p>
+            <p>“Climate Change Indicators: Sea Level.” EPA, Environmental Protection Agency, 17 Dec. 2016, <a
+                    href="https://www.epa.gov/climate-indicators/climate-change-indicators-sea-level">https://www.epa.gov/climate-indicators/climate-change-indicators-sea-level</a>.
+            </p>
+        </section>
     </div>
+
 
     <!-- Footer Insert-->
     <span id="java-footer-slot"></span>
@@ -99,6 +130,125 @@
 
     <!--===================== Inserts =====================-->
     <span id="filler"></span>
+
+    <!-- Mapping -->
+    <map name="Map">
+        <!-- <area shape="rect" id="19-1" coords="58,86,53,567" href="#">
+        <area shape="rect" id="19-2" coords="63,86,68,567" href="#"> -->
+        <area shape="rect" id="1901" coords="73,86,78,567" href="#" title="1901">
+        <area shape="rect" id="1902" coords="83,86,88,567" href="#">
+        <area shape="rect" id="1903" coords="93,86,98,567" href="#">
+        <area shape="rect" id="1904" coords="101,86,106,567" href="#">
+        <area shape="rect" id="1905" coords="111,86,116,567" href="#">
+        <area shape="rect" id="1906" coords="121,86,126,567" href="#">
+        <area shape="rect" id="1907" coords="131,86,136,567" href="#">
+        <area shape="rect" id="1908" coords="141,86,146,567" href="#">
+        <area shape="rect" id="1909" coords="151,86,156,567" href="#">
+        <area shape="rect" id="1910" coords="161,86,166,567" href="#">
+        <area shape="rect" id="1911" coords="171,86,176,567" href="#">
+        <area shape="rect" id="1912" coords="181,86,186,567" href="#">
+        <area shape="rect" id="1913" coords="191,86,196,567" href="#">
+        <area shape="rect" id="1914" coords="201,86,206,567" href="#">
+        <area shape="rect" id="1915" coords="211,86,216,567" href="#">
+        <area shape="rect" id="1916" coords="221,86,226,567" href="#">
+        <area shape="rect" id="1917" coords="231,86,236,567" href="#">
+        <area shape="rect" id="1918" coords="241,86,246,567" href="#">
+        <area shape="rect" id="1919" coords="251,86,256,567" href="#">
+        <area shape="rect" id="1920" coords="261,86,266,567" href="#">
+        <area shape="rect" id="1921" coords="271,86,276,567" href="#">
+        <area shape="rect" id="1922" coords="281,86,286,567" href="#">
+        <area shape="rect" id="1923" coords="291,86,296,567" href="#">
+        <area shape="rect" id="1924" coords="301,86,306,567" href="#">
+        <area shape="rect" id="1925" coords="311,86,316,567" href="#">
+        <area shape="rect" id="1926" coords="321,86,326,567" href="#">
+        <area shape="rect" id="1927" coords="331,86,336,567" href="#">
+        <area shape="rect" id="1928" coords="341,86,346,567" href="#">
+        <area shape="rect" id="1929" coords="349,86,354,567" href="#">
+        <area shape="rect" id="1930" coords="359,86,364,567" href="#">
+        <area shape="rect" id="1931" coords="369,86,374,567" href="#">
+        <area shape="rect" id="1932" coords="379,86,384,567" href="#">
+        <area shape="rect" id="1933" coords="389,86,394,567" href="#">
+        <area shape="rect" id="1934" coords="399,86,404,567" href="#">
+        <area shape="rect" id="1935" coords="409,86,414,567" href="#">
+        <area shape="rect" id="1936" coords="419,86,424,567" href="#">
+        <area shape="rect" id="1937" coords="429,86,434,567" href="#">
+        <area shape="rect" id="1938" coords="439,86,444,567" href="#">
+        <area shape="rect" id="1939" coords="449,86,454,567" href="#">
+        <area shape="rect" id="1940" coords="459,86,464,567" href="#">
+        <area shape="rect" id="1941" coords="469,86,474,567" href="#">
+        <area shape="rect" id="1942" coords="479,86,484,567" href="#">
+        <area shape="rect" id="1943" coords="489,86,494,567" href="#">
+        <area shape="rect" id="1944" coords="499,86,504,567" href="#">
+        <area shape="rect" id="1945" coords="507,86,512,567" href="#">
+        <area shape="rect" id="1946" coords="517,86,522,567" href="#">
+        <area shape="rect" id="1947" coords="527,86,532,567" href="#">
+        <area shape="rect" id="1948" coords="537,86,542,567" href="#">
+        <area shape="rect" id="1949" coords="547,86,552,567" href="#">
+        <area shape="rect" id="1950" coords="557,86,562,567" href="#">
+        <area shape="rect" id="1951" coords="567,86,572,567" href="#">
+        <area shape="rect" id="1952" coords="577,86,582,567" href="#">
+        <area shape="rect" id="1953" coords="587,86,592,567" href="#">
+        <area shape="rect" id="1954" coords="597,86,602,567" href="#">
+        <area shape="rect" id="1955" coords="605,86,610,567" href="#">
+        <area shape="rect" id="1956" coords="615,86,620,567" href="#">
+        <area shape="rect" id="1957" coords="625,86,630,567" href="#">
+        <area shape="rect" id="1958" coords="635,86,640,567" href="#">
+        <area shape="rect" id="1959" coords="645,86,650,567" href="#">
+        <area shape="rect" id="1960" coords="655,86,660,567" href="#">
+        <area shape="rect" id="1961" coords="665,86,670,567" href="#">
+        <area shape="rect" id="1962" coords="675,86,680,567" href="#">
+        <area shape="rect" id="1963" coords="685,86,690,567" href="#">
+        <area shape="rect" id="1964" coords="695,86,700,567" href="#">
+        <area shape="rect" id="1965" coords="705,86,710,567" href="#">
+        <area shape="rect" id="1966" coords="715,86,720,567" href="#">
+        <area shape="rect" id="1967" coords="725,86,730,567" href="#">
+        <area shape="rect" id="1968" coords="735,86,740,567" href="#">
+        <area shape="rect" id="1969" coords="745,86,750,567" href="#">
+        <area shape="rect" id="1970" coords="755,86,760,567" href="#">
+        <area shape="rect" id="1971" coords="765,86,770,567" href="#">
+        <area shape="rect" id="1972" coords="775,86,780,567" href="#">
+        <area shape="rect" id="1973" coords="785,86,790,567" href="#">
+        <area shape="rect" id="1974" coords="795,86,800,567" href="#">
+        <area shape="rect" id="1975" coords="805,86,810,567" href="#">
+        <area shape="rect" id="1976" coords="815,86,820,567" href="#">
+        <area shape="rect" id="1977" coords="825,86,830,567" href="#">
+        <area shape="rect" id="1978" coords="835,86,840,567" href="#">
+        <area shape="rect" id="1979" coords="843,86,848,567" href="#">
+        <area shape="rect" id="1980" coords="853,86,858,567" href="#">
+        <area shape="rect" id="1981" coords="863,86,868,567" href="#">
+        <area shape="rect" id="1982" coords="873,86,878,567" href="#">
+        <area shape="rect" id="1983" coords="883,86,888,567" href="#">
+        <area shape="rect" id="1984" coords="893,86,898,567" href="#">
+        <area shape="rect" id="1985" coords="903,86,908,567" href="#">
+        <area shape="rect" id="1986" coords="913,86,918,567" href="#">
+        <area shape="rect" id="1987" coords="923,86,928,567" href="#">
+        <area shape="rect" id="1988" coords="933,86,938,567" href="#">
+        <area shape="rect" id="1989" coords="943,86,948,567" href="#">
+        <area shape="rect" id="1990" coords="953,86,958,567" href="#">
+        <area shape="rect" id="1991" coords="963,86,968,567" href="#">
+        <area shape="rect" id="1992" coords="973,86,978,567" href="#">
+        <area shape="rect" id="1993" coords="983,86,988,567" href="#">
+        <area shape="rect" id="1994" coords="991,86,996,567" href="#">
+        <area shape="rect" id="1995" coords="1001,86,1006,567" href="#">
+        <area shape="rect" id="1996" coords="1011,86,1016,567" href="#">
+        <area shape="rect" id="1997" coords="1021,86,1026,567" href="#">
+        <area shape="rect" id="1998" coords="1031,86,1036,567" href="#">
+        <area shape="rect" id="1999" coords="1041,86,1046,567" href="#">
+        <area shape="rect" id="2000" coords="1051,86,1056,567" href="#">
+        <area shape="rect" id="2001" coords="1061,86,1066,567" href="#">
+        <area shape="rect" id="2002" coords="1071,86,1076,567" href="#">
+        <area shape="rect" id="2003" coords="1081,86,1086,567" href="#">
+        <area shape="rect" id="2004" coords="1091,86,1096,567" href="#">
+        <area shape="rect" id="2005" coords="1101,86,1106,567" href="#">
+        <area shape="rect" id="2006" coords="1111,86,1116,567" href="#">
+        <area shape="rect" id="2007" coords="1121,86,1126,567" href="#">
+        <area shape="rect" id="2008" coords="1131,86,1136,567" href="#">
+        <area shape="rect" id="2009" coords="1141,86,1146,567" href="#">
+        <area shape="rect" id="2010" coords="1151,86,1156,567" href="#">
+        <area shape="rect" id="2011" coords="1161,86,1166,567" href="#">
+        <area shape="rect" id="2012" coords="1171,86,1176,567" href="#">
+        <area shape="rect" id="2013" coords="1181,86,1186,567" href="#">
+    </map>
 
     <!-- Footer -->
     <script type="text/html" id="java-footer">
@@ -135,7 +285,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="mailto:">
+                            <a href="mailto:jdatwell@iu.edu">
                                 <span id="james" class="foot-item">
                                     <span class="tooltip">James</span>
                                 </span>
@@ -188,7 +338,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="mailto:">
+                    <a href="mailto:jdatwell@iu.edu">
                         <span id="james-s" class="foot-item">
                             <span class="tooltip">James</span>
                         </span>
@@ -226,10 +376,28 @@
             </section>
         </script>
 
-
     <!--===================== JavaScript =====================-->
     <script src="../javascript/sidebar-universal.js"></script>
     <script src="../javascript/parallax.js"></script>
+    <script src="../javascript/datapoints.js"></script>
+    <!-- <script>
+        document.getElementById("1901").addEventListener("click", function () {
+            document.getElementById("infoBox").innerHTML = "<div id='infoBox'> <hr/> <span id='close'> <i class='fas fa-times-circle fa-2x'></i> </span> <h2 id='year-h'>Year</h2> <p id='year-p'>a</p> <h2 id='water-h'>Change in Water Level</h2> <p id='water-p'>b</p> <h2 id='temp-h'>Change in Global Temperature</h2> <p id='temp-p'>c</p> <hr /> </div>";
+
+            document.getElementById("close").addEventListener("click", function () {
+                document.getElementById("infoBox").innerHTML = "<span id='infobox'></span>";
+            });
+        });
+
+        document.getElementById("1902").addEventListener("click", function () {
+            document.getElementById("infoBox").innerHTML = "<div id='infoBox'> <hr/> <span id='close'> <i class='fas fa-times-circle fa-2x'></i> </span> <h2 id='year-h'>Year</h2> <p id='year-p'>x</p> <h2 id='water-h'>Change in Water Level</h2> <p id='water-p'>y</p> <h2 id='temp-h'>Change in Global Temperature</h2> <p id='temp-p'>z</p> <hr /> </div>";
+
+            document.getElementById("close").addEventListener("click", function () {
+                document.getElementById("infoBox").innerHTML = "<span id='infobox'></span>";
+            });
+        });
+    </script> -->
+    <!-- <script src="../javascript/datapoints.js"></script> -->
     <!-- <script src="../javascript/scrollcolor.js"></script> -->
 </body>
 

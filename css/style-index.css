@@ -307,7 +307,7 @@ button.btn-slider:hover { /* Hover effects for the slider button */
 
 /* James */
 #footer span#james {
-    background-image: url(../images/user.jpg);
+    background-image: url(../images/profile/james-50px.jpg);
     grid-area: james;
     transition: 0.3s;
 }
@@ -510,7 +510,7 @@ opacity: 0;
 
 /* James */
 #side-footer span#james-s {
-    background-image: url(../images/user.jpg);
+    background-image: url(../images/profile/james-50px.jpg);
     grid-area: james;
     transition: 0.3s;
 }
