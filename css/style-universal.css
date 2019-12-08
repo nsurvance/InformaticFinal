@@ -141,7 +141,7 @@ body { /* Removes default margins from around the page */
 /* Footer icons */ /* Each section assigns a background image of everyone's face, and a hover effect changing it to an email icon */
 /* Colin */
 #footer span#colin {
-    background-image: url(../images/user.jpg);
+    background-image: url(../images/profile/colin-50px.jpg);
     grid-area: colin;
     transition: 0.3s;
 }
@@ -366,7 +366,7 @@ opacity: 0;
 /* Footer icons */ /* Each section assigns a background image of everyone's face, and a hover effect changing it to an email icon */
 /* Colin */
 #side-footer span#colin-s {
-    background-image: url(../images/user.jpg);
+    background-image: url(../images/profile/colin-50px.jpg);
     grid-area: colin;
     transition: 0.3s;
 }

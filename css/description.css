@@ -120,7 +120,7 @@ iframe {
 }
 
 #content h3 {
-    font-size: 70px;
+    font-size: 50px;
     line-height: 1.2em;
     text-align: center;
     padding-top: 40px;
@@ -201,5 +201,4 @@ iframe {
 #sources a:hover {
     color: lightslategray;
     text-decoration: underline;
-}
 }

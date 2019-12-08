@@ -50,9 +50,21 @@
     color:white;
 }
 
+.text p {
+    line-height: 2em;
+}
+
 @media(max-width: 1250px){
     #graph img {
         display: none;
+    }
+
+    map {
+        display: none;
+    }
+
+    #infoBox {
+        display:none;
     }
 
     #graph #notif {
@@ -86,6 +98,7 @@
 .faq h1{
     font-size: 72px;
     color: white;
+    padding: 40px;
 }
 
 .faq #questions {
@@ -149,7 +162,7 @@ padding-top: 50px;
 
 div#infoBox {
     display:grid;
-    grid-gap: 1%;
+    grid-gap: 20px;
     grid-template-areas:
         "year-h water-h temp-h close"
         "year-p water-p temp-p close";
@@ -158,7 +171,7 @@ div#infoBox {
     color: black;
     width: 1000px;
     margin: 0 auto;
-    padding: 10px;
+    padding: 20px;
     border-radius: 20px;
 }
 
@@ -185,7 +198,7 @@ div#infoBox #temp-p {
 div#infoBox #close {
     grid-area: close;
     position: relative;
-    top: 40px;
+    top: 20px;
 }
 
 .fa-times-circle{
