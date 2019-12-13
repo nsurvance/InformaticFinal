@@ -225,6 +225,229 @@ document.getElementById("1928").addEventListener("click", function () {
 
 
 //===================================================GRIFFIN===================================================
+document.getElementById("1929").addEventListener("click", function () {
+  document.getElementById("infoBox").innerHTML = "<div id='infoBox'>  <span id='close'> <i class='fas fa-times-circle fa-2x'></i> </span> <h2 id='year-h'>Year</h2> <p id='year-p'>1929</p> <h2 id='water-h'>Change in Water Level (in.)</h2> <p id='water-p'>1.906</p> <h2 id='temp-h'>Change in Global Temperature (ºF)</h2> <p id='temp-p'>-0.522</p>  </div>";
+
+  document.getElementById("close").addEventListener("click", function () {
+    document.getElementById("infoBox").innerHTML = "<span id='infobox'></span>";
+  });
+});
+
+document.getElementById("1930").addEventListener("click", function () {
+  document.getElementById("infoBox").innerHTML = "<div id='infoBox'>  <span id='close'> <i class='fas fa-times-circle fa-2x'></i> </span> <h2 id='year-h'>Year</h2> <p id='year-p'>1930</p> <h2 id='water-h'>Change in Water Level (in.)</h2> <p id='water-p'>2.063</p> <h2 id='temp-h'>Change in Global Temperature (ºF)</h2> <p id='temp-p'>-0.162</p>  </div>";
+
+  document.getElementById("close").addEventListener("click", function () {
+    document.getElementById("infoBox").innerHTML = "<span id='infobox'></span>";
+  });
+});
+
+document.getElementById("1931").addEventListener("click", function () {
+  document.getElementById("infoBox").innerHTML = "<div id='infoBox'>  <span id='close'> <i class='fas fa-times-circle fa-2x'></i> </span> <h2 id='year-h'>Year</h2> <p id='year-p'>1931</p> <h2 id='water-h'>Change in Water Level (in.)</h2> <p id='water-p'>2.047</p> <h2 id='temp-h'>Change in Global Temperature (ºF)</h2> <p id='temp-p'>-0.126</p>  </div>";
+
+  document.getElementById("close").addEventListener("click", function () {
+    document.getElementById("infoBox").innerHTML = "<span id='infobox'></span>";
+  });
+});
+
+document.getElementById("1932").addEventListener("click", function () {
+  document.getElementById("infoBox").innerHTML = "<div id='infoBox'>  <span id='close'> <i class='fas fa-times-circle fa-2x'></i> </span> <h2 id='year-h'>Year</h2> <p id='year-p'>1932</p> <h2 id='water-h'>Change in Water Level (in.)</h2> <p id='water-p'>2.712</p> <h2 id='temp-h'>Change in Global Temperature (ºF)</h2> <p id='temp-p'>-0.198</p>  </div>";
+
+  document.getElementById("close").addEventListener("click", function () {
+    document.getElementById("infoBox").innerHTML = "<span id='infobox'></span>";
+  });
+});
+
+document.getElementById("1933").addEventListener("click", function () {
+  document.getElementById("infoBox").innerHTML = "<div id='infoBox'>  <span id='close'> <i class='fas fa-times-circle fa-2x'></i> </span> <h2 id='year-h'>Year</h2> <p id='year-p'>1933</p> <h2 id='water-h'>Change in Water Level (in.)</h2> <p id='water-p'>2.441</p> <h2 id='temp-h'>Change in Global Temperature (ºF)</h2> <p id='temp-p'>-0.432</p>  </div>";
+
+  document.getElementById("close").addEventListener("click", function () {
+    document.getElementById("infoBox").innerHTML = "<span id='infobox'></span>";
+  });
+});
+
+document.getElementById("1934").addEventListener("click", function () {
+  document.getElementById("infoBox").innerHTML = "<div id='infoBox'>  <span id='close'> <i class='fas fa-times-circle fa-2x'></i> </span> <h2 id='year-h'>Year</h2> <p id='year-p'>1934</p> <h2 id='water-h'>Change in Water Level (in.)</h2> <p id='water-p'>2.228</p> <h2 id='temp-h'>Change in Global Temperature (ºF)</h2> <p id='temp-p'>-0.18</p>  </div>";
+
+  document.getElementById("close").addEventListener("click", function () {
+    document.getElementById("infoBox").innerHTML = "<span id='infobox'></span>";
+  });
+});
+
+document.getElementById("1935").addEventListener("click", function () {
+  document.getElementById("infoBox").innerHTML = "<div id='infoBox'>  <span id='close'> <i class='fas fa-times-circle fa-2x'></i> </span> <h2 id='year-h'>Year</h2> <p id='year-p'>1935</p> <h2 id='water-h'>Change in Water Level (in.)</h2> <p id='water-p'>2.449</p> <h2 id='temp-h'>Change in Global Temperature (ºF)</h2> <p id='temp-p'>-0.234</p>  </div>";
+
+  document.getElementById("close").addEventListener("click", function () {
+    document.getElementById("infoBox").innerHTML = "<span id='infobox'></span>";
+  });
+});
+
+document.getElementById("1936").addEventListener("click", function () {
+  document.getElementById("infoBox").innerHTML = "<div id='infoBox'>  <span id='close'> <i class='fas fa-times-circle fa-2x'></i> </span> <h2 id='year-h'>Year</h2> <p id='year-p'>1936</p> <h2 id='water-h'>Change in Water Level (in.)</h2> <p id='water-p'>2.295</p> <h2 id='temp-h'>Change in Global Temperature (ºF)</h2> <p id='temp-p'>-0.198</p>  </div>";
+
+  document.getElementById("close").addEventListener("click", function () {
+    document.getElementById("infoBox").innerHTML = "<span id='infobox'></span>";
+  });
+});
+
+document.getElementById("1937").addEventListener("click", function () {
+  document.getElementById("infoBox").innerHTML = "<div id='infoBox'>  <span id='close'> <i class='fas fa-times-circle fa-2x'></i> </span> <h2 id='year-h'>Year</h2> <p id='year-p'>1937</p> <h2 id='water-h'>Change in Water Level (in.)</h2> <p id='water-p'>2.52</p> <h2 id='temp-h'>Change in Global Temperature (ºF)</h2> <p id='temp-p'>-0.018</p>  </div>";
+
+  document.getElementById("close").addEventListener("click", function () {
+    document.getElementById("infoBox").innerHTML = "<span id='infobox'></span>";
+  });
+});
+
+document.getElementById("1938").addEventListener("click", function () {
+  document.getElementById("infoBox").innerHTML = "<div id='infoBox'>  <span id='close'> <i class='fas fa-times-circle fa-2x'></i> </span> <h2 id='year-h'>Year</h2> <p id='year-p'>1938</p> <h2 id='water-h'>Change in Water Level (in.)</h2> <p id='water-p'>2.622</p> <h2 id='temp-h'>Change in Global Temperature (ºF)</h2> <p id='temp-p'>-0.036</p>  </div>";
+
+  document.getElementById("close").addEventListener("click", function () {
+    document.getElementById("infoBox").innerHTML = "<span id='infobox'></span>";
+  });
+});
+
+document.getElementById("1939").addEventListener("click", function () {
+  document.getElementById("infoBox").innerHTML = "<div id='infoBox'>  <span id='close'> <i class='fas fa-times-circle fa-2x'></i> </span> <h2 id='year-h'>Year</h2> <p id='year-p'>1939</p> <h2 id='water-h'>Change in Water Level (in.)</h2> <p id='water-p'>2.827</p> <h2 id='temp-h'>Change in Global Temperature (ºF)</h2> <p id='temp-p'>-0.018</p>  </div>";
+
+  document.getElementById("close").addEventListener("click", function () {
+    document.getElementById("infoBox").innerHTML = "<span id='infobox'></span>";
+  });
+});
+
+document.getElementById("1940").addEventListener("click", function () {
+  document.getElementById("infoBox").innerHTML = "<div id='infoBox'>  <span id='close'> <i class='fas fa-times-circle fa-2x'></i> </span> <h2 id='year-h'>Year</h2> <p id='year-p'>1940</p> <h2 id='water-h'>Change in Water Level (in.)</h2> <p id='water-p'>2.618</p> <h2 id='temp-h'>Change in Global Temperature (ºF)</h2> <p id='temp-p'>0.18</p>  </div>";
+
+  document.getElementById("close").addEventListener("click", function () {
+    document.getElementById("infoBox").innerHTML = "<span id='infobox'></span>";
+  });
+});
+
+document.getElementById("1941").addEventListener("click", function () {
+  document.getElementById("infoBox").innerHTML = "<div id='infoBox'>  <span id='close'> <i class='fas fa-times-circle fa-2x'></i> </span> <h2 id='year-h'>Year</h2> <p id='year-p'>1941</p> <h2 id='water-h'>Change in Water Level (in.)</h2> <p id='water-p'>3.098</p> <h2 id='temp-h'>Change in Global Temperature (ºF)</h2> <p id='temp-p'>0.36</p>  </div>";
+
+  document.getElementById("close").addEventListener("click", function () {
+    document.getElementById("infoBox").innerHTML = "<span id='infobox'></span>";
+  });
+});
+
+document.getElementById("1942").addEventListener("click", function () {
+  document.getElementById("infoBox").innerHTML = "<div id='infoBox'>  <span id='close'> <i class='fas fa-times-circle fa-2x'></i> </span> <h2 id='year-h'>Year</h2> <p id='year-p'>1942</p> <h2 id='water-h'>Change in Water Level (in.)</h2> <p id='water-p'>3.098</p> <h2 id='temp-h'>Change in Global Temperature (ºF)</h2> <p id='temp-p'>0.27</p>  </div>";
+
+  document.getElementById("close").addEventListener("click", function () {
+    document.getElementById("infoBox").innerHTML = "<span id='infobox'></span>";
+  });
+});
+
+document.getElementById("1943").addEventListener("click", function () {
+  document.getElementById("infoBox").innerHTML = "<div id='infoBox'>  <span id='close'> <i class='fas fa-times-circle fa-2x'></i> </span> <h2 id='year-h'>Year</h2> <p id='year-p'>1943</p> <h2 id='water-h'>Change in Water Level (in.)</h2> <p id='water-p'>3.098</p> <h2 id='temp-h'>Change in Global Temperature (ºF)</h2> <p id='temp-p'>0.288</p>  </div>";
+
+  document.getElementById("close").addEventListener("click", function () {
+    document.getElementById("infoBox").innerHTML = "<span id='infobox'></span>";
+  });
+});
+
+document.getElementById("1944").addEventListener("click", function () {
+  document.getElementById("infoBox").innerHTML = "<div id='infoBox'>  <span id='close'> <i class='fas fa-times-circle fa-2x'></i> </span> <h2 id='year-h'>Year</h2> <p id='year-p'>1944</p> <h2 id='water-h'>Change in Water Level (in.)</h2> <p id='water-p'>2.846</p> <h2 id='temp-h'>Change in Global Temperature (ºF)</h2> <p id='temp-p'>0.522</p>  </div>";
+
+  document.getElementById("close").addEventListener("click", function () {
+    document.getElementById("infoBox").innerHTML = "<span id='infobox'></span>";
+  });
+});
+
+document.getElementById("1945").addEventListener("click", function () {
+  document.getElementById("infoBox").innerHTML = "<div id='infoBox'>  <span id='close'> <i class='fas fa-times-circle fa-2x'></i> </span> <h2 id='year-h'>Year</h2> <p id='year-p'>1945</p> <h2 id='water-h'>Change in Water Level (in.)</h2> <p id='water-p'>2.957</p> <h2 id='temp-h'>Change in Global Temperature (ºF)</h2> <p id='temp-p'>0.306</p>  </div>";
+
+  document.getElementById("close").addEventListener("click", function () {
+    document.getElementById("infoBox").innerHTML = "<span id='infobox'></span>";
+  });
+});
+
+document.getElementById("1946").addEventListener("click", function () {
+  document.getElementById("infoBox").innerHTML = "<div id='infoBox'>  <span id='close'> <i class='fas fa-times-circle fa-2x'></i> </span> <h2 id='year-h'>Year</h2> <p id='year-p'>1946</p> <h2 id='water-h'>Change in Water Level (in.)</h2> <p id='water-p'>3.252</p> <h2 id='temp-h'>Change in Global Temperature (ºF)</h2> <p id='temp-p'>0</p>  </div>";
+
+  document.getElementById("close").addEventListener("click", function () {
+    document.getElementById("infoBox").innerHTML = "<span id='infobox'></span>";
+  });
+});
+
+document.getElementById("1947").addEventListener("click", function () {
+  document.getElementById("infoBox").innerHTML = "<div id='infoBox'>  <span id='close'> <i class='fas fa-times-circle fa-2x'></i> </span> <h2 id='year-h'>Year</h2> <p id='year-p'>1947</p> <h2 id='water-h'>Change in Water Level (in.)</h2> <p id='water-p'>3.374</p> <h2 id='temp-h'>Change in Global Temperature (ºF)</h2> <p id='temp-p'>-0.09</p>  </div>";
+
+  document.getElementById("close").addEventListener("click", function () {
+    document.getElementById("infoBox").innerHTML = "<span id='infobox'></span>";
+  });
+});
+
+document.getElementById("1948").addEventListener("click", function () {
+  document.getElementById("infoBox").innerHTML = "<div id='infoBox'>  <span id='close'> <i class='fas fa-times-circle fa-2x'></i> </span> <h2 id='year-h'>Year</h2> <p id='year-p'>1948</p> <h2 id='water-h'>Change in Water Level (in.)</h2> <p id='water-p'>3.563</p> <h2 id='temp-h'>Change in Global Temperature (ºF)</h2> <p id='temp-p'>-0.09</p>  </div>";
+
+  document.getElementById("close").addEventListener("click", function () {
+    document.getElementById("infoBox").innerHTML = "<span id='infobox'></span>";
+  });
+});
+
+document.getElementById("1949").addEventListener("click", function () {
+  document.getElementById("infoBox").innerHTML = "<div id='infoBox'>  <span id='close'> <i class='fas fa-times-circle fa-2x'></i> </span> <h2 id='year-h'>Year</h2> <p id='year-p'>1949</p> <h2 id='water-h'>Change in Water Level (in.)</h2> <p id='water-p'>3.512</p> <h2 id='temp-h'>Change in Global Temperature (ºF)</h2> <p id='temp-p'>-0.108</p>  </div>";
+
+  document.getElementById("close").addEventListener("click", function () {
+    document.getElementById("infoBox").innerHTML = "<span id='infobox'></span>";
+  });
+});
+
+document.getElementById("1950").addEventListener("click", function () {
+  document.getElementById("infoBox").innerHTML = "<div id='infoBox'>  <span id='close'> <i class='fas fa-times-circle fa-2x'></i> </span> <h2 id='year-h'>Year</h2> <p id='year-p'>1950</p> <h2 id='water-h'>Change in Water Level (in.)</h2> <p id='water-p'>3.598</p> <h2 id='temp-h'>Change in Global Temperature (ºF)</h2> <p id='temp-p'>-0.28</p>  </div>";
+
+  document.getElementById("close").addEventListener("click", function () {
+    document.getElementById("infoBox").innerHTML = "<span id='infobox'></span>";
+  });
+});
+
+document.getElementById("1951").addEventListener("click", function () {
+  document.getElementById("infoBox").innerHTML = "<div id='infoBox'>  <span id='close'> <i class='fas fa-times-circle fa-2x'></i> </span> <h2 id='year-h'>Year</h2> <p id='year-p'>1951</p> <h2 id='water-h'>Change in Water Level (in.)</h2> <p id='water-p'>3.972</p> <h2 id='temp-h'>Change in Global Temperature (ºF)</h2> <p id='temp-p'>-0.018</p>  </div>";
+
+  document.getElementById("close").addEventListener("click", function () {
+    document.getElementById("infoBox").innerHTML = "<span id='infobox'></span>";
+  });
+});
+
+document.getElementById("1952").addEventListener("click", function () {
+  document.getElementById("infoBox").innerHTML = "<div id='infoBox'>  <span id='close'> <i class='fas fa-times-circle fa-2x'></i> </span> <h2 id='year-h'>Year</h2> <p id='year-p'>1952</p> <h2 id='water-h'>Change in Water Level (in.)</h2> <p id='water-p'>3.87</p> <h2 id='temp-h'>Change in Global Temperature (ºF)</h2> <p id='temp-p'>0.054</p>  </div>";
+
+  document.getElementById("close").addEventListener("click", function () {
+    document.getElementById("infoBox").innerHTML = "<span id='infobox'></span>";
+  });
+});
+
+document.getElementById("1953").addEventListener("click", function () {
+  document.getElementById("infoBox").innerHTML = "<div id='infoBox'>  <span id='close'> <i class='fas fa-times-circle fa-2x'></i> </span> <h2 id='year-h'>Year</h2> <p id='year-p'>1953</p> <h2 id='water-h'>Change in Water Level (in.)</h2> <p id='water-p'>4.043</p> <h2 id='temp-h'>Change in Global Temperature (ºF)</h2> <p id='temp-p'>0.18</p>  </div>";
+
+  document.getElementById("close").addEventListener("click", function () {
+    document.getElementById("infoBox").innerHTML = "<span id='infobox'></span>";
+  });
+});
+
+document.getElementById("1954").addEventListener("click", function () {
+  document.getElementById("infoBox").innerHTML = "<div id='infoBox'>  <span id='close'> <i class='fas fa-times-circle fa-2x'></i> </span> <h2 id='year-h'>Year</h2> <p id='year-p'>1954</p> <h2 id='water-h'>Change in Water Level (in.)</h2> <p id='water-p'>3.929</p> <h2 id='temp-h'>Change in Global Temperature (ºF)</h2> <p id='temp-p'>-0.216</p>  </div>";
+
+  document.getElementById("close").addEventListener("click", function () {
+    document.getElementById("infoBox").innerHTML = "<span id='infobox'></span>";
+  });
+});
+
+document.getElementById("1955").addEventListener("click", function () {
+  document.getElementById("infoBox").innerHTML = "<div id='infoBox'>  <span id='close'> <i class='fas fa-times-circle fa-2x'></i> </span> <h2 id='year-h'>Year</h2> <p id='year-p'>1955</p> <h2 id='water-h'>Change in Water Level (in.)</h2> <p id='water-p'>3.964</p> <h2 id='temp-h'>Change in Global Temperature (ºF)</h2> <p id='temp-p'>-0.234</p>  </div>";
+
+  document.getElementById("close").addEventListener("click", function () {
+    document.getElementById("infoBox").innerHTML = "<span id='infobox'></span>";
+  });
+});
+
+document.getElementById("1956").addEventListener("click", function () {
+  document.getElementById("infoBox").innerHTML = "<div id='infoBox'>  <span id='close'> <i class='fas fa-times-circle fa-2x'></i> </span> <h2 id='year-h'>Year</h2> <p id='year-p'>1956</p> <h2 id='water-h'>Change in Water Level (in.)</h2> <p id='water-p'>3.764</p> <h2 id='temp-h'>Change in Global Temperature (ºF)</h2> <p id='temp-p'>-0.36</p>  </div>";
+
+  document.getElementById("close").addEventListener("click", function () {
+    document.getElementById("infoBox").innerHTML = "<span id='infobox'></span>";
+  });
+});
 
 
 //===================================================CLARK===================================================
