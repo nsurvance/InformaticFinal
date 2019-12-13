@@ -85,6 +85,7 @@
 #group p{
     font-weight: 700px;
     font-size: 20px;
+    padding-bottom: 40px;
 }
 
 /* Colin */
@@ -122,7 +123,7 @@
     display:grid;
     grid-template-areas: 
         "griffin-abt desc-gri";
-        background: url(../images/abt-profile/griffin-bg.png) center no-repeat;
+        background: url(../images/abt-profile/griffin-bg.png);
     /* padding: 40px; */
 }
 #griffin-abt {
@@ -180,7 +181,7 @@
     .desc {
         max-width: 600px;
         text-align: center;
-        padding:0;
+        padding:40px;
     }
     #group img {
         width: 300px;
@@ -244,6 +245,11 @@
     }   
     #abt-header p {
         padding: 20px;
+    }
+
+    #group .desc {
+        padding-top: 0; 
+        padding-bottom: 0;
     }
 }
 
