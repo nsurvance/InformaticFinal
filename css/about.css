@@ -94,7 +94,7 @@
     display:grid;
     grid-template-areas: 
         "colin-abt desc-col";
-        background: url(../images/abt-profile/colin-bg.png) center no-repeat;
+        background: url(../images/abt-profile/colin-bg.jpg) center no-repeat;
     /* padding: 40px; */
 }
 #colin-abt {
@@ -109,7 +109,7 @@
     display:grid;
     grid-template-areas: 
         "desc-cla clark-abt";
-        background: url(../images/abt-profile/clark-bg.png) center no-repeat;
+        background: url(../images/abt-profile/clark-bg.jpg) center no-repeat;
     /* padding: 40px; */
 }
 #clark-abt {
@@ -124,7 +124,7 @@
     display:grid;
     grid-template-areas: 
         "griffin-abt desc-gri";
-        background: url(../images/abt-profile/griffin-bg.png);
+        background: url(../images/abt-profile/griffin-bg.jpg);
     /* padding: 40px; */
 }
 #griffin-abt {
@@ -139,7 +139,7 @@
     display:grid;
     grid-template-areas: 
         "desc-nat nathan-abt";
-        background: url(../images/abt-profile/nathan-bg.png) center no-repeat;
+        background: url(../images/abt-profile/nathan-bg.jpg) center no-repeat;
     /* padding: 40px; */
     color: var(--background);
 }
@@ -265,6 +265,7 @@
     border-radius: 30px;
     transition: 0.3s;
 }
+
 
 #group span:hover {
     transition: 0.3s;
