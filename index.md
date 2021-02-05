@@ -9,6 +9,7 @@
     <script src="https://kit.fontawesome.com/bd1924c9a2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style-index.css">
     <link rel="stylesheet" href="css/hover.css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
 </head>
 
 <body>
@@ -22,7 +23,7 @@
     <div id="wrapper">
 
         <!-- Logo -->
-        <a href="http://iu.edu/" id="logo"><img src="images/logo.png" alt="Ocean World" class="hvr-float"></a>
+        <a href="index.html" id="logo"><img src="images/logo.png" alt="Ocean World" class="hvr-float"></a>
 
         <!-- Header/Hamburger Button Insert-->
         <span id="Header-to-Hamburger-slot"></span>
@@ -32,7 +33,9 @@
             <div class="slide current">
                 <div class="content">
                     <h1>Climate Change</h1>
-                    <p>Here, you can learn about climate change&mdash;the global issue that that many people don't know
+                    <p>Here, you can learn about climate change&mdash;the global issue that that
+                        many people don't
+                        know
                         a
                         lot about.</p>
                     <br />
@@ -78,12 +81,42 @@
         <section id="footer">
             <table>
                 <ul>
-                    <li id="disclaimer">Website created for IUPUI School of Informatics 2019.</li>
-                    <li><a href="mailto:bushcom@iu.edu"><span id="colin"></a></span></li>
-                    <li><a href="mailto:cah1@iu.edu"><span id="clark"></a></span></li>
-                    <li><a href="mailto:gmbeckha@iu.edu"><span id="griffin"></a></span></li>
-                    <li><a href="mailto:nsurvanc@iu.edu"><span id="nathan"></a></span></li>
-                    <li><a href="mailto:"><span id="james"></a></span></li>
+                    <li id="disclaimer">Contact us through email.  Created for IUPUI 2019 &copy;</li>
+                    <li>
+                        <a href="mailto:johnsmith@aol.com">
+                            <span id="colin" class="foot-item">
+                                <span class="tooltip">Colin</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:cjohnsmith@aol.com">
+                            <span id="clark" class="foot-item">
+                                <span class="tooltip">Clark</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:johnsmith@aol.com">
+                            <span id="griffin" class="foot-item">
+                                <span class="tooltip">Griffin</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:johnsmith@aol.com">
+                            <span id="nathan" class="foot-item">
+                                <span class="tooltip">Nathan</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:johnsmith@aol.com">
+                            <span id="james" class="foot-item">
+                                <span class="tooltip">James</span>
+                            </span>
+                        </a>
+                    </li>
                 </ul>
             </table>
         </section>
@@ -116,20 +149,50 @@
         <div ID="sidebar">
             <!-- Side Menu -->
             <ul ID="side-menu">
-                <li class="item"><a href="html/about.html">About Us</a></li>
                 <li class="item"><a href="html/description.html">Description</a></li>
                 <li class="item"><a href="html/visualization.html">Visualization</a></li>
+                <li class="item"><a href="html/about.html">About Us</a></li>
             </ul>
 
             <!-- Side Footer -->
             <ul ID="side-footer">
-                <li><a href="mailto:bushcom@iu.edu"><span id="colin-s"></a></span></li>
-                <li><a href="mailto:cah1@iu.edu"><span id="clark-s"></a></span></li>
-                <li><a href="mailto:gmbeckha@iu.edu"><span id="griffin-s"></a></span></li>
+                <li>
+                    <a href="mailto:johnsmith@aol.com">
+                        <span id="colin-s" class="foot-item">
+                            <span class="tooltip">Colin</span>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:johnsmith@aol.com">
+                        <span id="clark-s" class="foot-item">
+                            <span class="tooltip">Clark</span>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:johnsmith@aol.com">
+                        <span id="griffin-s" class="foot-item">
+                            <span class="tooltip">Griffin</span>
+                        </span>
+                    </a>
+                </li>
                 <li><span id="filler"></span></li>
-                <li><a href="mailto:nsurvanc@iu.edu"><span id="nathan-s"></a></span></li>
-                <li><a href="mailto:"><span id="james-s"></a></span></li>
-                <li id="disclaimer-s">Website created for IUPUI School of Informatics 2019.</li>
+                <li>
+                    <a href="mailto:johnsmith@aol.com">
+                        <span id="nathan-s" class="foot-item">
+                            <span class="tooltip">Nathan</span>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:johnsmith@aol.com">
+                        <span id="james-s" class="foot-item">
+                            <span class="tooltip">James</span>
+                        </span>
+                    </a>
+                </li>
+                <li id="disclaimer-s">Contact us through email.  Created for IUPUI 2019 &copy;</li>
             </ul>
         </div>
     </script>
@@ -137,7 +200,7 @@
 
     <!--===================== JavaScript =====================-->
     <script src="javascript/slidershow.js"></script>
-    <script src="javascript/sidebar.js"></script>
+    <script src="javascript/sidebar-index.js"></script>
 
 </body>
 
